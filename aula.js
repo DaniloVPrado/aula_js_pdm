@@ -1,8 +1,51 @@
-const a = []
-const b = a
-console.log (a === b)
+const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristiana"]
+//arrow function () => {}
+//estamos verificando se o nome começa com A
+const resultante = nomes.filter((n) => {
+    return n.startsWith("A")
+});
+console.log(resultante)
 
-Thread.stop()
+// void f (int a, float b){
+
+// }
+// f(1, 2)
+// class Pessoa{
+
+//     public void andar (){
+
+//     }
+
+//     variavel = andar;
+// }
+
+// const nome = [1, 2]
+// console.log (nomes)
+// nomes[0] = 3
+// console.log(nomes)
+// nomes[225] = "oi"
+// console.log(nomes.length)
+
+// // int v [10];
+// v1 = []
+// v1[0] = 3.4
+// v1[10] = 2
+// v1[2] = "abc"
+
+// console.log(v1.length)
+// console.log(v1)
+
+// for (let i = 0; i < v1.length; i++){
+//     console.log (v1[i])
+// }
+
+
+
+// const a = []
+// const b = a
+// console.log (a === b)
+
+// Thread.stop()
 
 // console.log ([] === [])
 
